@@ -13,24 +13,24 @@ Python, TensorFlow, Flask, and HTML.
 
 # Implementation Workflow
 
-Introduction
+# 1. Introduction
 
-Getting Started with the Flask App
+# 2. Getting Started with the Flask App
  -We will create a basic, functional web app with Flask
 
-Index Template
+# 3. Index Template
 -We will add a template for the index page.
  We will add a base template which extends a Bootstrap base template
 
-TensorFlow Serving
+# 4. TensorFlow Serving
  -We will create a docker instance with TensorFlow Serving image.
  We will deploy and serve our binary classifier model in the docker instance
 
-Getting Predictions
+# 5. Getting Predictions
  -We will write a module which sends post request to the model server with input image tensor.
   The module will also post process the predictions obtained from the model server.
 
-Connecting to Model Server
+# 6. Connecting to Model Server
 
 
-Displaying the Results
+# 7. Displaying the Results
