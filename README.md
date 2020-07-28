@@ -16,8 +16,11 @@ Python, TensorFlow, Flask, and HTML.
 Introduction
 
 Getting Started with the Flask App
+ -We will create a basic, functional web app with Flask
 
 Index Template
+-We will add a template for the index page.
+ We will add a base template which extends a Bootstrap base template
 
 TensorFlow Serving
 
