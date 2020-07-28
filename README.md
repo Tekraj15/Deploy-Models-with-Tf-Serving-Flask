@@ -30,7 +30,9 @@ Python, TensorFlow, Flask, and HTML.
  -We will write a module which sends post request to the model server with input image tensor.
   The module will also post process the predictions obtained from the model server.
 
-# 6. Connecting to Model Server
-
+# 6. Connecting the Model Server to App
+ - We will create functionality in our to be able to upload an image files.
+ We will import the inference module created previously in the app, and get predicted class for the uploaded image.
 
 # 7. Displaying the Results
+  - Finally, we will create a show.html template, where we will display the uploaded image along with its predicted class.
