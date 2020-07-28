@@ -23,9 +23,14 @@ Index Template
  We will add a base template which extends a Bootstrap base template
 
 TensorFlow Serving
+ -We will create a docker instance with TensorFlow Serving image.
+ We will deploy and serve our binary classifier model in the docker instance
 
 Getting Predictions
+ -We will write a module which sends post request to the model server with input image tensor.
+  The module will also post process the predictions obtained from the model server.
 
 Connecting to Model Server
+
 
 Displaying the Results
