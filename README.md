@@ -1,8 +1,9 @@
 # Deploy Models with TensorFlow Serving and Flask
 
 # Project Overview 
-In this project we deploy TensorFlow models using TensorFlow Serving and Docker, and will create a simple web application with Flask which will serve as an interface to get predictions from the served TensorFlow model.
+This project deploys the TensorFlow models using TensorFlow Serving and Docker and then creates a web application with Flask which will serve as an interface to get predictions from the served TensorFlow model.
 
+i.e.
 -Serve a TensorFlow model with TensorFlow Serving and Docker.
 
 -Create a web application with Flask to work as an interface to a served model.
