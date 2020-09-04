@@ -1,4 +1,4 @@
-# Deploy Models with TensorFlow Serving and Flask
+# Deploy Models with TensorFlow Serving and Flask for Image Classification
 
 # Project Overview 
 This project deploys the TensorFlow models using TensorFlow Serving and Docker and then creates a web application with Flask which will serve as an interface to get predictions from the served TensorFlow model.
